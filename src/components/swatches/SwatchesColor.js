@@ -69,7 +69,7 @@ export const SwatchesColor = ({ color, onClick = () => {}, onSwatchHover, first,
       focusStyle={{ boxShadow: `0 0 4px ${ color }` }}
     >
       <div style={ styles.check }>
-        <CheckIcon />
+        <CheckIcon width="20px" height="20px" />
       </div>
     </Swatch>
   )
