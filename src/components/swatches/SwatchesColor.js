@@ -10,15 +10,15 @@ export const SwatchesColor = ({ color, onClick = () => {}, onSwatchHover, first,
   const styles = reactCSS({
     'default': {
       color: {
-        width: '40px',
-        height: '24px',
+        width: '20px',
+        height: '20px',
         cursor: 'pointer',
         background: color,
         marginBottom: '1px',
       },
       check: {
         color: colorUtils.getContrastingColor(color),
-        marginLeft: '8px',
+        marginLeft: '0px',
         display: 'none',
       },
     },
