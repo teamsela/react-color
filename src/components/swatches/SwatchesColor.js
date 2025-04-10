@@ -10,15 +10,15 @@ export const SwatchesColor = ({ color, onClick = () => {}, onSwatchHover, first,
   const styles = reactCSS({
     'default': {
       color: {
-        width: '40px',
-        height: '24px',
+        width: '20px',
+        height: '20px',
         cursor: 'pointer',
         background: color,
         marginBottom: '1px',
       },
       check: {
         color: colorUtils.getContrastingColor(color),
-        marginLeft: '8px',
+        marginLeft: '0px',
         display: 'none',
       },
     },
@@ -69,7 +69,7 @@ export const SwatchesColor = ({ color, onClick = () => {}, onSwatchHover, first,
       focusStyle={{ boxShadow: `0 0 4px ${ color }` }}
     >
       <div style={ styles.check }>
-        <CheckIcon />
+        <CheckIcon width="20px" height="20px" />
       </div>
     </Swatch>
   )
