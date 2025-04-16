@@ -17,8 +17,8 @@ export var SwatchesColor = function SwatchesColor(_ref) {
   var styles = reactCSS({
     'default': {
       color: {
-        width: '20px',
-        height: '20px',
+        width: '24px',
+        height: '24px',
         cursor: 'pointer',
         background: color,
         marginBottom: '1px'
@@ -32,13 +32,13 @@ export var SwatchesColor = function SwatchesColor(_ref) {
     'first': {
       color: {
         overflow: 'hidden',
-        borderRadius: '2px 2px 0 0'
+        borderRadius: '2px 2px 2px 2px'
       }
     },
     'last': {
       color: {
         overflow: 'hidden',
-        borderRadius: '0 0 2px 2px'
+        borderRadius: '2px 2px 2px 2px'
       }
     },
     'active': {
@@ -79,7 +79,7 @@ export var SwatchesColor = function SwatchesColor(_ref) {
     React.createElement(
       'div',
       { style: styles.check },
-      React.createElement(CheckIcon, { width: '20px', height: '20px' })
+      React.createElement(CheckIcon, { width: '24px', height: '24px' })
     )
   );
 };
