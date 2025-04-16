@@ -10,8 +10,8 @@ export const SwatchesColor = ({ color, onClick = () => {}, onSwatchHover, first,
   const styles = reactCSS({
     'default': {
       color: {
-        width: '20px',
-        height: '20px',
+        width: '24px',
+        height: '24px',
         cursor: 'pointer',
         background: color,
         marginBottom: '1px',
@@ -25,13 +25,13 @@ export const SwatchesColor = ({ color, onClick = () => {}, onSwatchHover, first,
     'first': {
       color: {
         overflow: 'hidden',
-        borderRadius: '2px 2px 0 0',
+        borderRadius: '2px 2px 2px 2px',
       },
     },
     'last': {
       color: {
         overflow: 'hidden',
-        borderRadius: '0 0 2px 2px',
+        borderRadius: '2px 2px 2px 2px',
       },
     },
     'active': {
@@ -69,7 +69,7 @@ export const SwatchesColor = ({ color, onClick = () => {}, onSwatchHover, first,
       focusStyle={{ boxShadow: `0 0 4px ${ color }` }}
     >
       <div style={ styles.check }>
-        <CheckIcon width="20px" height="20px" />
+        <CheckIcon width="24px" height="24px" />
       </div>
     </Swatch>
   )

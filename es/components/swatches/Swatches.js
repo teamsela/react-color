@@ -28,10 +28,10 @@ export var Swatches = function Swatches(_ref) {
       },
       overflow: {
         height: height,
-        overflowY: 'scroll'
+        overflowY: 'auto'
       },
       body: {
-        padding: '16px 0 6px 16px'
+        padding: '16px 16px 0px 16px'
       },
       clear: {
         clear: 'both'
