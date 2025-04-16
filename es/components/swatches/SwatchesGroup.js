@@ -14,7 +14,7 @@ export var SwatchesGroup = function SwatchesGroup(_ref) {
     'default': {
       group: {
         paddingBottom: '10px',
-        width: '20px',
+        width: '24px',
         float: 'left',
         marginRight: '5px'
       }
